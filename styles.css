@@ -1,15 +1,104 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #FAFAFA; /* Gris très clair */
+    color: #4A4A4A; /* Couleur de texte sombre */
+    line-height: 1.6; /* Améliore la lisibilité */
 }
-header, footer {
-    background-color: #333;
-    color: white;
+
+header {
+    background-color: #F5B2C6; /* Rose bébé */
+    color: #FFFFFF; /* Texte blanc pour contraste */
+    padding: 2.5rem; /* Espacement accru */
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif; /* Police plus élégante */
+}
+
+h1 {
+    font-size: 2.5rem; /* Taille de police plus grande pour le titre principal */
+    margin-bottom: 1rem; /* Espace sous le titre */
+}
+
+h2 {
+    color: #D81B60; /* Rose doux */
+    font-size: 2rem; /* Taille de police pour les sous-titres */
+    margin-top: 1.5rem; /* Espace au-dessus */
+    margin-bottom: 0.5rem; /* Espace en dessous */
+}
+
+p {
+    margin-bottom: 1rem; /* Espacement entre les paragraphes */
+}
+
+ul {
+    margin-left: 20px; /* Indentation pour les listes */
+}
+
+.card {
+    border: none; /* Pas de bordure */
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombre pour effet de profondeur */
+}
+
+.card-title {
+    color: #D81B60; /* Couleur rose pour les titres de carte */
+}
+
+.card-text {
+    color: #4A4A4A; /* Couleur du texte pour les descriptions */
+}
+
+footer {
+    background-color: #F5B2C6; /* Rose bébé pour le pied de page */
+    color: #FFFFFF; /* Texte blanc */
     text-align: center;
-    padding: 10px 0;
+    padding: 1.5rem; /* Espacement */
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
-section {
-    margin: 20px 0;
+
+.btn {
+    border-radius: 20px; /* Coins arrondis pour les boutons */
+    font-weight: bold; /* Texte en gras pour les boutons */
+}
+
+.btn:hover {
+    background-color: #C81D5D; /* Couleur plus foncée au survol */
+    transition: background-color 0.3s; /* Effet de transition */
+}
+/* Importer la police Roboto depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#about {
+    background-color: #E6C9E4; /* Mauve clair pour le fond */
+    border-radius: 15px; /* Coins arrondis */
+    padding: 2rem; /* Espacement interne */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    margin-bottom: 2rem; /* Espacement en bas */
+    font-family: 'Roboto', sans-serif; /* Appliquer la police Roboto */
+}
+
+#about h2 {
+    font-size: 2.5rem; /* Taille de police pour le titre */
+    margin-bottom: 1rem; /* Espace en dessous du titre */
+    text-align: center; /* Centrer le titre */
+}
+
+#about p {
+    font-size: 1.1rem; /* Taille de police légèrement augmentée */
+    line-height: 1.6; /* Améliore la lisibilité */
+    margin-bottom: 1rem; /* Espacement entre les paragraphes */
+    font-weight: 700; /* Rendre le texte en gras */
+}
+
+#about ul {
+    margin-left: 20px; /* Indentation pour les listes */
+    list-style-type: disc; /* Style de puce */
+}
+
+#about img {
+    border: 4px solid #D81B60; /* Bordure rose autour de l'image */
+    border-radius: 50%; /* Rendre l'image circulaire */
 }
